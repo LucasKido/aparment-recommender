@@ -25,9 +25,9 @@ def select_block_container_style():
 	)
 
 def set_variables():
-	lgbm = jb.load('./lgbm_20200720.pkl.z')
-	rf = jb.load('random_forest_20200720.pkl.z')
-	enc = jb.load('onehotvec_20200720.pkl.z')
+	lgbm = jb.load('./lgbm_20211028.pkl.z')
+	rf = jb.load('random_forest_20211028.pkl.z')
+	enc = jb.load('onehotvec_20211028.pkl.z')
 	return lgbm, rf, enc
 
 def encode_variables(enc, df):
